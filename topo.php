@@ -1,5 +1,5 @@
 <!-- Header para pc -->
-<div class="d-none d-sm-block">
+<div class="d-none d-sm-block ">
     <div class="row corfundo">
         <div class="col-1"></div>
         <div class="col-2 mt-3">

@@ -1,67 +1,26 @@
- <link rel="stylesheet" href="footer.css">
-    <!-- Header para pc -->
-    <div class="d-none d-sm-block">
-        <div class="row text-center footer">
-            <div class="col-4 mt-2 mb-2">
-                <div class="row mt-4">
-                    <div class="col-3"></div>
-                    <div class="col-2 mt-2 mb-2">
-                        <a href="https://www.instagram.com/ceeplaranjeiras/">
-                            <img src="img/instagram.png">
-                        </a>
-                    </div>
-                    <div class="col-2 mt-2 mb-2">
-                        <a href="https://www.facebook.com/ceeplaranjeirasdosul/">
-                            <img src="img/facebook.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-2 mt-2 mb-2">
-                        <a href="ljsceeplaranjeiras@seed.pr.gov.br">
-                            <img src="img/email.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-3"></div>
-                </div>
-            </div>
+<!-- footer.php -->
+<link rel="stylesheet" href="footer.css">
 
-            <div class="col-4 mt-2 mb-2"><br>
-                <div class="mt-2 mb-2">(42) 3635-2397 <br> R. Cel. Guilherme de Paula, 1937-1967 <br> Centro, Laranjeiras do Sul - PR, 85301-404 </div>
-            </div>
-
-            <div class="col-4 mt-2 mb-2">
-                <div class="row text-center">
-                    <div class="row text-center mt-2 mb-2">
-                        <p> Horários <br> Segunda-Feira à Sexta- Feira <br> 7:30 às 11:50 <br> 18:30 às 23:00</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<footer class="footer bg-dark text-light py-4">
+  <div class="container text-center">
+    <div class="mb-3">
+      <a href="https://www.instagram.com/ceeplaranjeiras/" target="_blank">
+        <img src="img/instagram.png" alt="Instagram" class="mx-2">
+      </a>
+      <a href="https://www.facebook.com/ceeplaranjeirasdosul/" target="_blank">
+        <img src="img/facebook.png" alt="Facebook" class="mx-2">
+      </a>
+      <a href="mailto:ljsceeplaranjeiras@seed.pr.gov.br">
+        <img src="img/email.png" alt="Email" class="mx-2">
+      </a>
     </div>
+    <p class="mb-1">(42) 3635-2397</p>
+    <p class="mb-1">R. Cel. Guilherme de Paula, 1937-1967 - Centro, Laranjeiras do Sul - PR, 85301-404</p>
+    <p class="mb-0">Horários: Segunda à Sexta | 7:30–11:50 e 18:30–23:00</p>
+  </div>
+</footer>
 
-    <!-- Header para celular -->
-    <div class="d-block d-sm-none">
-        <div class="row text-center footer">
-
-            <div class="row mt-1">
-                <div class="col-3"></div>
-                <div class="col-2">
-                    <a href="https://www.instagram.com/ceeplaranjeiras/"> <img src="img/instagram.png"> </a>
-                </div>
-                <div class="col-2">
-                    <a href="https://www.facebook.com/ceeplaranjeirasdosul/"> <img src="img/facebook.png"> </a>
-                </div>
-                <div class="col-2">
-                    <a href="ljsceeplaranjeiras@seed.pr.gov.br"> <img src="img/email.png"> </a>
-                </div>
-            </div>
-            <div class="col-3"></div>
-
-            <div class="row mt-2">
-            <p> Horários: Segunda-Feira à Sexta- Feira, <br> 7:30 às 11:50, 18:30 às 23:00</p>
-            </div> 
-        </div>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
- 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous">
+</script>
