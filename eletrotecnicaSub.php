@@ -46,14 +46,10 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, unde ad cum, velit repudiandae ea eius dolorum incidunt, aliquam accusamus dicta neque! Beatae similique quae culpa, iste sint architecto voluptas.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Eletrotécnica capacita os alunos a atuar no desenvolvimento, instalação, manutenção e operação de sistemas elétricos e eletrônicos. Durante a formação, os estudantes aprendem sobre circuitos elétricos, máquinas e equipamentos, automação, controle de sistemas elétricos, instalações industriais e prediais, além de segurança elétrica e normas técnicas. O curso combina teoria e prática, preparando os alunos para atuar em áreas como geração, transmissão e distribuição de energia elétrica, além de automação industrial e manutenção de sistemas elétricos. O técnico em Eletrotécnica pode trabalhar em indústrias, empresas de energia, construtoras, ou prestar serviços de manutenção e consultoria. O profissional dessa área é essencial para garantir a eficiência, segurança e funcionamento adequado dos sistemas elétricos em diversos setores.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+    <br>
     </div>
 
 

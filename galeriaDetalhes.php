@@ -21,33 +21,33 @@
 
     <div class="row">
       <div class="col-md-2">
-        <a href="https://www.guiaviagensbrasil.com/imagens/linda-praia-brava-buzios-rj.jpg" data-fancybox="imagem">
-          <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid">
+        <a href="img/imgAgriculturaCarousel1.JPG" data-fancybox="imagem">
+          <img src="img/imgAgriculturaCarousel1.JPG" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-md-2">
-        <a href="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/F403/production/_109476426_jheison3.png.webp" data-fancybox="imagem">
-          <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid">
+        <a href="img/imgAgriculturaCarousel2.JPG" data-fancybox="imagem">
+          <img src="img/imgAgriculturaCarousel2.JPG" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-md-2">
-        <a href="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/8FA4/production/_103927763_44190191_2160165127350452_3001085544559017984_n.jpg.webp" data-fancybox="imagem">
-          <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid">
+        <a href="img/imgAgriculturaCarousel3.JPG" data-fancybox="imagem">
+          <img src="img/imgAgriculturaCarousel3.JPG" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-md-2">
-        <a href="https://agrafica.com.br/wp-content/uploads/2016/01/resolucao_300dpi.jpg" data-fancybox="imagem">
-          <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid">
+        <a href="img/imgAgriculturaCarousel1.JPG" data-fancybox="imagem">
+          <img src="img/imgAgriculturaCarousel1.JPG" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-md-2">
-        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-6MmGpov5lggqUBp-1xorN9DTJBfFh6ayET5JnVSEoWV0FkVKXHznVxFxYV6FRwx2fXI&usqp=CAU" data-fancybox="imagem">
-          <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid">
+        <a href="img/imgAgriculturaCarousel2.JPG" data-fancybox="imagem">
+          <img src="img/imgAgriculturaCarousel2.JPG" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-md-2">
-        <a href="https://www.guiaviagensbrasil.com/imagens/linda-praia-brava-buzios-rj.jpg" data-fancybox="imagem">
-          <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid">
+        <a href="img/imgAgriculturaCarousel3.JPG" data-fancybox="imagem">
+          <img src="img/imgAgriculturaCarousel3.JPG" alt="" class="img-fluid">
         </a>
       </div>
     </div>

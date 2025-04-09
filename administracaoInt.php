@@ -49,16 +49,10 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nisi earum recusandae eum dolor enim doloribus perferendis consequuntur! Maiores a, ipsa beatae ullam ex id voluptas architecto sapiente alias fuga?
-                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Administração forma profissionais que podem atuar em diversas áreas empresariais, como gestão de recursos humanos, finanças, marketing e logística. Durante o curso, os alunos aprendem sobre organização e gestão de empresas, atendimento ao cliente, planejamento estratégico, contabilidade básica e comunicação empresarial. O técnico em Administração é essencial para auxiliar no funcionamento eficiente das organizações, contribuindo para a tomada de decisões, organização de processos administrativos e melhoria no desempenho das empresas em diversos setores.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+    <br>
     </div>
 
 

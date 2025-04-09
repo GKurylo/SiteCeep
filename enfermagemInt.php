@@ -50,14 +50,10 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor necessitatibus aliquid ut at vero eaque reiciendis consequatur perferendis magnam doloremque. Non fugit assumenda mollitia quas voluptas incidunt quidem laborum deleniti.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Enfermagem é uma formação voltada para a capacitação de profissionais que atuam na área da saúde, especificamente no cuidado direto aos pacientes. Durante o curso, os alunos aprendem sobre anatomia, fisiologia, farmacologia, primeiros socorros, cuidados com pacientes em diversas condições, além de técnicas de enfermagem, administração de medicamentos, coleta de exames e muito mais. O curso oferece uma abordagem prática e teórica, preparando os estudantes para trabalhar em hospitais, clínicas, unidades de saúde, ambulatórios e outros ambientes de saúde.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+    <br>
     </div>
 
 

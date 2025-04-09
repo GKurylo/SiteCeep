@@ -24,7 +24,7 @@
     </div>
 
     <div class="row">
-      <div id="carouselExampleFade" class="col-9 carousel slide carousel-fade rounded-circle" data-bs-ride="carousel">
+      <div id="carouselExampleFade" class="col-12 col-md-9 carousel slide carousel-fade rounded-circle" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/imgCeepCarousel1.jpg" class="d-block w-100 imgBorda" alt="...">
@@ -64,8 +64,8 @@
         </button>
       </div>
 
-      <div class="col-3">
-        <div class="row">
+      <div class="col-12 col-md-3">
+        <div class="row p-3 p-sm-0">
           <div>
             <img src="img/imgHorario.png" class="img-fluid imgBorda" alt="">
           </div>
@@ -75,27 +75,19 @@
 
     <div class="row">
       <div class="col-3">
-        <a href="historico.php"><img src="img/imgHistorico.png" class="img-fluid imgBorda" alt=""></a>
+        <a href="historico.php"><img src="img/imgHistorico.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
       <div class="col-3">
-        <a href="objetivos.php"><img src="img/imgObjetivos.png" class="img-fluid imgBorda" alt=""></a>
+        <a href="objetivos.php"><img src="img/imgObjetivos.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
       <div class="col-3">
-        <a href="leitoria.php"><img src="img/imgLeitoria.png" class="img-fluid imgBorda" alt=""></a>
+        <a href="reitoria.php"><img src="img/imgReitoria.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
       <div class="col-3">
-        <a href="galeriaFotos.php"><img src="img/imgGaleriaDeFotos.png" class="img-fluid imgBorda" alt=""></a>
+        <a href="galeriaFotos.php"><img src="img/imgGaleriaDeFotos.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
     </div><br>
   </div>
-
-  <!-- Botão Voltar ao Topo -->
-  <button id="btnTopo" onclick="voltarAoTopo()" title="Voltar ao topo">Voltar ao Topo
-    <i class="bi bi-arrow-up-circle"></i>
-  </button>
-
-  <!-- Script personalizado -->
-  <script src="botoes.js"></script>
 
   <footer>
     <?php include("footer.php"); ?>

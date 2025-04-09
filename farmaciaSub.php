@@ -49,14 +49,10 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, unde ad cum, velit repudiandae ea eius dolorum incidunt, aliquam accusamus dicta neque! Beatae similique quae culpa, iste sint architecto voluptas.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Farmácia prepara os alunos para atuar no setor farmacêutico, com ênfase na manipulação, armazenamento, distribuição e controle de medicamentos. Durante a formação, os estudantes aprendem sobre farmacologia, química, técnicas de farmácia, controle de qualidade, legislação sanitária, atendimento ao cliente, entre outros conteúdos. Além disso, o curso aborda aspectos relacionados ao armazenamento de medicamentos, administração de fármacos, e como oferecer orientações sobre o uso adequado de medicamentos aos pacientes.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+        <br>
     </div>
 
 

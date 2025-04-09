@@ -49,14 +49,11 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, unde ad cum, velit repudiandae ea eius dolorum incidunt, aliquam accusamus dicta neque! Beatae similique quae culpa, iste sint architecto voluptas.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Estética forma profissionais capacitados para atuar na área de cuidados estéticos e bem-estar, com foco em tratamentos de pele, cabelo e corpo. Durante a formação, os alunos aprendem técnicas de limpeza de pele, depilação, massagem, design de sobrancelhas, tratamentos faciais e corporais, além de cuidados com a estética capilar. O curso também aborda conhecimentos sobre cosméticos, fisiologia da pele, segurança e ética profissional, e o uso de equipamentos específicos para tratamentos estéticos.
+                    O técnico em Estética pode trabalhar em salões de beleza, clínicas de estética, spas, centros de saúde e bem-estar, além de atuar como autônomo, oferecendo serviços personalizados aos clientes. Este profissional tem um papel importante na promoção da autoestima e saúde da pele e do corpo, sempre com foco em resultados estéticos e no bem-estar geral dos clientes.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+    <br>
     </div>
 
 

@@ -49,14 +49,10 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, unde ad cum, velit repudiandae ea eius dolorum incidunt, aliquam accusamus dicta neque! Beatae similique quae culpa, iste sint architecto voluptas.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Edificações forma profissionais capacitados para atuar na construção civil, com foco em projetos, execução e fiscalização de obras de edificações. Durante a formação, os alunos aprendem sobre materiais de construção, projetos arquitetônicos e estruturais, orçamento e planejamento de obras, técnicas de segurança, normas regulamentadoras e uso de softwares específicos para a área. O curso também aborda conhecimentos em hidráulica, elétrica, e sustentabilidade nas construções. O técnico em Edificações está preparado para atuar como auxiliar de projetos, supervisor de obras e até mesmo em áreas relacionadas ao controle de qualidade e manutenção de edificações. Esse profissional pode trabalhar em empresas de construção, escritórios de projetos, órgãos públicos e privados, contribuindo para o desenvolvimento e a segurança das construções.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+    <br>
     </div>
 
 

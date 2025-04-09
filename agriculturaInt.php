@@ -49,16 +49,10 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nisi earum recusandae eum dolor enim doloribus perferendis consequuntur! Maiores a, ipsa beatae ullam ex id voluptas architecto sapiente alias fuga?
-                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Agricultura capacita profissionais para atuar nas diversas etapas da produção agrícola, com foco em práticas sustentáveis e eficientes. Durante a formação, os alunos aprendem sobre cultivo de plantas, manejo de solo, irrigação, técnicas de adubação, controle de pragas e doenças, além de noções de mecanização agrícola e gestão de propriedades rurais. Esse técnico é fundamental para otimizar a produção agrícola e garantir a sustentabilidade no campo, além de auxiliar no planejamento e execução de atividades relacionadas ao cultivo e à colheita.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+    <br>
     </div>
 
 

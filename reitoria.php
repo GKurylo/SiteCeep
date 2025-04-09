@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="text-center"><h1 class="titulosBorda">Leitoria</h1></div>
+            <div class="text-center"><h1 class="titulosBorda">Reitoria</h1></div>
         </div>
         <div>
             <iframe src="pdf/EQUIPE DO CEEP 2025.pdf" width="100%" height="1200" style="border: none;"></iframe>

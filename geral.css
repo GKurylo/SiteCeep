@@ -30,14 +30,15 @@ body{
 }
 
 #btnTopo {
-   display: none;
    position: fixed;
+   text-align: end;
+   display: block;
+   right: 50px;
    bottom: 20px;
-   right: 20px;
    z-index: 999;
    background: transparent;
    border: none;
-   color: #0d6efd;
+   color: rgb(40, 109, 1);
    font-size: 40px;
    cursor: pointer;
  }

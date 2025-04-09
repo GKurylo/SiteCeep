@@ -1,6 +1,8 @@
 <!-- Header para pc -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <div class="d-none d-sm-block ">
-    <div class="row corfundo">
+    <div class="row corfundo  p-0 m-0">
         <div class="col-1"></div>
         <div class="col-2 mt-3">
             <div><a href="inicio.php"><img src="https://escolatecnicalaranjeiras.com.br/wp-content/uploads/2020/11/cropped-logo-em-pdf-ceep.png" height="230px"></a></div>

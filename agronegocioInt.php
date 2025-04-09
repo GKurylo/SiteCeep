@@ -49,16 +49,10 @@
 
             </div>
             <div class="col-md-6 mt-2">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, ad illo asperiores error, quisquam deserunt quos sint corrupti earum eos voluptates iste nostrum recusandae veniam repellat fugit quae deleniti voluptatibus!
-                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O curso técnico em Agronegócios prepara profissionais para atuar na gestão e administração do setor agropecuário, abrangendo desde a produção até a comercialização de produtos agrícolas. Os alunos aprendem sobre logística, marketing, finanças, comércio exterior, sustentabilidade e inovação no setor agroindustrial. O técnico em Agronegócios é capacitado para otimizar processos de produção, gestão de equipes e implementar estratégias de negócios no setor agropecuário, contribuindo para o desenvolvimento e crescimento do agronegócio nacional e internacional.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center mt-5">
-                <a href=""><button class="btn btn-primary w-25 p-3 ">Grade Curricular</button></a>
-            </div>
-        </div>
+    <br>
     </div>
 
 
