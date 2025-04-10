@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-6">
                     <div class="text-center">
-                        <h4 class="titulosBorda" class="titulosBorda">jogos Escolares</h4>
+                        <h4 class="titulosBorda" class="titulosBorda">Jogos Escolares</h4>
                     </div>
                     <div class="row">
                         <div class="col-5">

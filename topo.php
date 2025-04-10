@@ -14,7 +14,7 @@
             </div>
             <hr>
             <div class="text-center mt-5">
-                <h2 class="fs-5">Profª. Naiana Babaresco Souza - Escola Técnica de Laranjeiras do Sul - PR</h2>
+                <h3 class="fs-5">Profª. Naiana Babaresco Souza - Escola Técnica de Laranjeiras do Sul - PR</h3>
             </div>
         </div>
 
@@ -58,7 +58,7 @@
 
 <div class="row mt-2 m-3">
     <div class="col-3 p-1">
-        <div><a href="inicio.php"><button class="btn btn-secondary" type="button">Inicio</button></a></div>
+        <div><a href="inicio.php"><button class="btn btn-secondary" type="button">Início</button></a></div>
     </div>
     <div class="col-3 p-1">
         <div class="dropdown">

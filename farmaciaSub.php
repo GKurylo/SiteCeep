@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="text-center">
-                <h1 class="titulosBorda">Farmacia</h1>
+                <h1 class="titulosBorda">Farmácia</h1>
             </div>
         </div>
         <div class="row mt-2">

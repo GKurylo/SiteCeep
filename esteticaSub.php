@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="text-center">
-                <h1 class="titulosBorda">Estetica</h1>
+                <h1 class="titulosBorda">Estética</h1>
             </div>
         </div>
         <div class="row mt-2">
