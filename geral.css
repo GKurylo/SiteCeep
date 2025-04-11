@@ -1,36 +1,45 @@
-.corfundo{
-    background: rgb(0, 26, 97);
- }
 
- button{
-    width: 100%;
- }
+.corfundo {
+   background: rgb(0, 26, 97);
+}
+
+button {
+   width: 100%;
+}
 
 
-h1, h3{
+h1,
+h3 {
    background: rgb(0, 26, 97);
    color: aliceblue;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h2, h4, h6{
+h2,
+h4,
+h6 {
    background: rgb(40, 109, 1);
    color: aliceblue;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+p{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-body{
+body {
    background-color: rgb(233, 233, 233);
 }
 
-.btnCursos{
+.btnCursos {
    background-color: rgb(145, 145, 145);
 }
 
-.imgBorda{
+.imgBorda {
    border-radius: 20px !important;
 }
 
-.titulosBorda{
+.titulosBorda {
    border-radius: 15px !important;
 }
 
@@ -46,4 +55,33 @@ body{
    color: rgb(40, 109, 1);
    font-size: 40px;
    cursor: pointer;
- }
+}
+
+.mapaCelular {
+   border: 0;
+   border-radius: 15px;
+   align-items: center;
+   height: 175px;
+}
+
+@media (max-width:768px) {
+   .mapaCelular {
+      height: 350px !important;
+   }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+   .mapaCelular {
+      height: 100px;
+   }
+}
+
+.h6Topo{
+   background: rgb(0, 26, 97) !important;
+   color: aliceblue;
+} 
+
+.h1Topo, .h3Topo{
+   background: none !important;
+}
+

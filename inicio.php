@@ -72,25 +72,25 @@
         </div><br>
         <div class="row">
             <div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7208.150953990148!2d-52.418927!3d-25.402284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94efcb0e00bde791%3A0x2d922b5d61c69727!2sR.%20Cel.%20Guilherme%20de%20Paula%2C%20530%20-%20Centro%2C%20Laranjeiras%20do%20Sul%20-%20PR%2C%2085301-220%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1744246301289!5m2!1spt-BR!2sus"
-              width="100%" height="100%" style="border:0; border-radius: 15px; align-items: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d450.5148412411197!2d-52.420643!3d-25.400836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94efcb1205ab6b87%3A0x4c6769f192dbec61!2sCEEP%20Prof%C2%AA.%20Naiana%20Bavaresco%20Souza%20-%20Escola%20T%C3%A9cnica%20de%20Laranjeiras%20do%20Sul%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1744325633500!5m2!1spt-BR!2sbr"
+              width="100%"     class="mapaCelular" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
               </iframe>
             </div>
         </div>
       </div>
-    </div> <br>
+    </div> 
 
     <div class="row">
-      <div class="col-3">
+      <div class="col-md-3 col-6 mt-3">
         <a href="historico.php"><img src="img/imgHistorico.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-6 mt-3">
         <a href="objetivos.php"><img src="img/imgObjetivos.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-6 mt-3">
         <a href="reitoria.php"><img src="img/imgReitoria.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-6 mt-3">
         <a href="galeriaFotos.php"><img src="img/imgGaleriaDeFotos.jpg" class="img-fluid imgBorda" alt=""></a>
       </div>
     </div><br>

@@ -17,6 +17,9 @@
     <p class="mb-1">(42) 3635-2397</p>
     <p class="mb-1">R. Cel. Guilherme de Paula, 1937-1967 - Centro, Laranjeiras do Sul - PR, 85301-404</p>
     <p class="mb-0">Horários: Segunda à Sexta | 7:30–11:50 e 18:30–23:00</p>
+  </div> <br> <hr>
+  <div class="row text-center">
+    <p>Gabriel Kurylo  -  Miguel Zocche  -  Osney Cezar</p>
   </div>
 </footer>
 
