@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-12">
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No ano de 2008, dez municípios do Paraná foram contemplados para receber uma unidade de Centro Estadual de Educação Profissional – CEEP. Já haviam cinco unidades no estado e a partir de 2008 a previsão é que mais 10 (dez) seriam construídos. Dentre os municípios selecionados, Laranjeiras do Sul foi contemplada com o objetivo de atender uma demanda regional, visto que o Município está mais centralizado e poderia atender os demais da região. O município de Laranjeiras do Sul é Sede do Conselho de Desenvolvimento do território Cantuquiriguaçu CONDETC. <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O Território da Cantuquiriguaçu, reflete com precisão a essência da Associação de Municípios da Região Centro – Oeste do Paraná, que chamamos de Cantu. A entidade é o elo da união de 20 municípios, que juntos lutam por mais desenvolvimento para suas cidades. <br>
@@ -37,11 +37,11 @@
                 </p>
             </div>
 
-            <div class="col-md-4">
-                <img src="img/imgNaiana.png" width="100%" class="imgB">
-            </div>
+            <div class="col-12 text-center">
+                <img src="img/imgNaiana.png" width="35%" class="img-fluid">
+            </div> 
         </div>
-    </div>
+    </div> <br>
 
     <footer>
         <?php include("footer.php"); ?>

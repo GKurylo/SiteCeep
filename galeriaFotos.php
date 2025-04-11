@@ -21,41 +21,62 @@
 
         <div class="row">
             <div class="col-md-3 text-center">
-                <a href="galeriaDetalhes.php">
-                    <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                    <h5>Formatura dos Alunos</h5>
+                <a href="PrimeiroDia.php">
+                    <img src="img/imgCapaPrimeiroDiaAula.jpg" alt="" class="img-fluid imgBorda">
+                </a>    
+                    <h5>Primeiro dia de aula</h5>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <a href="Oficinas.php">
+                <img src="img/imgOficinas.jpg" alt="" class="img-fluid imgBorda">
                 </a>
+                <h5>Oficinas</h5>
             </div>
+
             <div class="col-md-3 text-center">
-                <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                <h5>Jogos Municipais</h5>
+                <a href="DiadaMulher.php">
+                <img src="img/imgDiaDaMulher.jpg" alt="" class="img-fluid imgBorda">
+                </a>
+                <h5>Dia da mulher</h5>
             </div>
+
             <div class="col-md-3 text-center">
-                <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                <h5>Expoagro</h5>
+                <a href="Drone.php">    
+                <img src="img/imgDrone.jpg" alt="" class="img-fluid imgBorda">
+                </a>   
+                <h5>Drone</h5>
             </div>
+
             <div class="col-md-3 text-center">
-                <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                <h5>Curso de Formação de Docenter</h5>
+                <a href="JusticaTrabalho.php">
+                <img src="img/imgAntonioJusticaDoTrabalho.jpg" alt="" class="img-fluid imgBorda">
+                </a>
+                <h5>Antonio justiça do trabalho</h5>
             </div>
+
             <div class="col-md-3 text-center">
-                <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                <h5>Apresentação</h5>
+                <a href="Eleitoral.php">
+                <img src="img/imgEleitoral.jpg" alt="" class="img-fluid imgBorda">
+                </a>
+                <h5>Eleitoral</h5>
             </div>
+
             <div class="col-md-3 text-center">
-                <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                <h5>Feira de Tecnologia</h5>
+                <a href="Dengue.php">
+                <img src="img/imgDengue.jpg" alt="" class="img-fluid imgBorda">
+                </a>
+                <h5>Dengue</h5>
             </div>
+
             <div class="col-md-3 text-center">
-                <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                <h5>Apresentação Cultural</h5>
-            </div>
-            <div class="col-md-3 text-center">
-                <img src="https://wallpapers.com/images/hd/nature-pictures-ffm1xnpcdzxox0y7.jpg" alt="" class="img-fluid imgBorda">
-                <h5>Locais</h5>
+                <a href="ConexaoCeep.php">
+                <img src="img/imgConexaoCeepEmpregabilidade.jpg" alt="" class="img-fluid imgBorda">
+                </a>
+                <h5>Conexão Ceep Empregabilidade</h5>
             </div>
         </div>
-    </div>
+    </div> <br>
 
 
     <footer>
