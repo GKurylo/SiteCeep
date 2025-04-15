@@ -25,6 +25,7 @@ h6 {
 
 p{
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: justify;
 }
 
 body {
@@ -85,3 +86,6 @@ body {
    background: none !important;
 }
 
+.textoFooter{
+   text-align: center !important;
+}

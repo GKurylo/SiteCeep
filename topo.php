@@ -5,7 +5,7 @@
     <div class="row corfundo  p-0 m-0">
         <div class="col-1"></div>
         <div class="col-2 mt-3">
-            <div><a href="inicio.php"><img src="https://escolatecnicalaranjeiras.com.br/wp-content/uploads/2020/11/cropped-logo-em-pdf-ceep.png" height="230px"></a></div>
+            <div><a href="index.php"><img src="https://escolatecnicalaranjeiras.com.br/wp-content/uploads/2020/11/cropped-logo-em-pdf-ceep.png" height="230px"></a></div>
         </div>
 
         <div class="col-6">
@@ -19,7 +19,7 @@
         </div>
 
         <div class="col-2 mt-3 ">
-            <div><img src="https://images.seeklogo.com/logo-png/23/2/brasao-do-parana-logo-png_seeklogo-235186.png" height="230px"></div>
+            <div><a href="https://www.educacao.pr.gov.br/desvio.html"><img src="https://images.seeklogo.com/logo-png/23/2/brasao-do-parana-logo-png_seeklogo-235186.png" height="230px"></div></a>
         </div>
         <div class="col-1"></div>
     </div>
@@ -30,7 +30,7 @@
     <div class="row corfundo p-0 m-0">
         <div class="col-1"></div>
         <div class="col-3">
-        <div><a href="inicio.php"><img src="https://escolatecnicalaranjeiras.com.br/wp-content/uploads/2020/11/cropped-logo-em-pdf-ceep.png" class="img-fluid"></a></div>
+        <div><a href="index.php"><img src="https://escolatecnicalaranjeiras.com.br/wp-content/uploads/2020/11/cropped-logo-em-pdf-ceep.png" class="img-fluid"></a></div>
         </div>
         <div class="col-4 text-center mt-4">
             <h1>CEEP</h1>
@@ -57,10 +57,11 @@
 <!--Botoes-->
 
 <div class="row mt-2 m-3">
-    <div class="col-3 p-1">
-        <div><a href="inicio.php"><button class="btn btn-secondary" type="button">Início</button></a></div>
+    <div class="col-1"></div>
+    <div class="col-2 p-1">
+        <div><a href="index.php"><button class="btn btn-secondary" type="button">Início</button></a></div>
     </div>
-    <div class="col-3 p-1">
+    <div class="col-2 p-1">
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Cursos</button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -69,11 +70,15 @@
             </ul>
         </div>
     </div>
-    <div class="col-3 p-1">
+    <div class="col-2 p-1">
         <div><a href="noticias.php"><button class="btn btn-secondary" type="button">Notícias</button></a></div>
     </div>
-    <div class="col-3 p-1">
+    <div class="col-2 p-1">
         <div><a href="contato.php"><button class="btn btn-secondary" type="button">Contato</button></a></div>
     </div>
+    <div class="col-2 p-1">
+        <div><a href="login.php"><button class="btn btn-secondary" type="button">Área Restrita</button></a></div>
+    </div>
+    <div class="col-1"></div>
 </div>
 <hr>

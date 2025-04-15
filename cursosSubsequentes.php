@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-6">
                 <div>
-                    <h2 class="text-center titulosBorda">DEV</h2>
+                    <h2 class="text-center titulosBorda">Desenvolvimento</h2>
                 </div>
                 <div>
                     <a href="desenvolvimentoSub.php"><img src="img/imgDev.jpg" class="img-fluid imgBorda"></a>
