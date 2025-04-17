@@ -8,16 +8,16 @@
       </div>
       <ul class="nav flex-column p-3">
           <li class="nav-item">
-              <a class="nav-link btn" href="./">Início</a>
+              <a class="nav-link btn btnMenu" href="./">Início</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn" href="usuarios-pesquisar.php">Usuários</a>
+              <a class="nav-link btn btnMenu" href="usuarios-pesquisar.php">Usuários</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn" href="#">Relatórios</a>
+              <a class="nav-link btn btnMenu" href="#">Relatórios</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn" href="#">Configurações</a>
+              <a class="nav-link btn btnMenu" href="#">Configurações</a>
           </li>
       </ul>
   </div>
@@ -29,16 +29,16 @@
       </div>
       <ul class="nav flex-column p-3">
           <li class="nav-item">
-              <a class="nav-link btn" href="./">Início</a>
+              <a class="nav-link btn btnMenu" href="./">Início</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn" href="usuarios-pesquisar.php">Usuários</a>
+              <a class="nav-link btn btnMenu" href="usuarios-pesquisar.php">Usuários</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn" href="#">Relatórios</a>
+              <a class="nav-link btn btnMenu" href="#">Relatórios</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn" href="#">Configurações</a>
+              <a class="nav-link btn btnMenu" href="#">Configurações</a>
           </li>
       </ul>
   </div>

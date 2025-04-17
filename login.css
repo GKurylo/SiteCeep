@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, rgb(0, 26, 97), rgb(51, 72, 129), rgb(51, 72, 129), rgb(0, 26, 97));
+}
+
+
+.loginPc {
+    background-color: rgb(236, 236, 236);
+    width: 40%;
+    padding: 50px;
+    border-radius: 15px;
+    height: 40%;
+}
+
+.loginCelular {
+    background-color: rgb(236, 236, 236);
+    padding: 25px;
+    border-radius: 15px;
+}
