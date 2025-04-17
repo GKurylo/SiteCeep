@@ -20,7 +20,15 @@
               <a class="nav-link btn btnMenu" href="#">Configurações</a>
           </li>
       </ul>
+
+      <div class="mt-5 text-center">
+          <a class="btn btnMenu" href="../">Voltar ao Site</a>
+      </div>
+
   </div>
+
+
+
 
   <!-- Menu mobile (invisível no desktop) -->
   <div class="menu-lateral d-md-none" id="menuMobile">
@@ -40,7 +48,15 @@
           <li class="nav-item">
               <a class="nav-link btn btnMenu" href="#">Configurações</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link btn btnMenu" href="../">Voltar ao Site</a>
+          </li>
       </ul>
+
+      <div class="mt-5 text-center">
+          <a class="btn btnMenu" href="../">Voltar ao Site</a>
+      </div>
+      
   </div>
 
   <!-- Conteúdo principal -->
