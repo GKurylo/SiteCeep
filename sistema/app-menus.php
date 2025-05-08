@@ -19,6 +19,9 @@
           <li class="nav-item">
               <a class="nav-link btn btnMenu" href="#">Configurações</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link btn btnMenu" href="adicionarNoticias.php">Adicionar Notícia</a>
+          </li>
       </ul>
 
       <div class="mt-5 text-center">
@@ -49,13 +52,16 @@
               <a class="nav-link btn btnMenu" href="#">Configurações</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="../">Voltar ao Site</a>
+              <a class="nav-link btn btnMenu" href="adicionarNoticias.php">Adicionar Notícia</a>
           </li>
+          
       </ul>
 
       <div class="mt-5 text-center">
           <a class="btn btnMenu" href="../">Voltar ao Site</a>
       </div>
+
+      
       
   </div>
 
