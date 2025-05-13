@@ -1,35 +1,20 @@
-<?php include("conexao.php");
+<?php include('conexao.php');
 
-$id = $_POST["txtId"];
 $titulo = $_POST["txtTitulo"]; 
 $resumo = $_POST["txtResumo"];
-$texto = $_POST["txtTexto"];
+$descricao = $_POST["txtDescricao"];
 $imagem = $_POST["txtImagem"];
 $status = $_POST["txtStatus"];
 
-$conn
+$sql=$conn->prepare("
+    insert into noticias set titulo='$titulo',
+                             resumo='$resumo',
+                             descricao='$descricao',
+                             imagem='$imagem',
+                             status='$status'
+    ");
+    $sql->execute();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+header("location: adicionarNoticias.php");
 
 ?>

@@ -8,7 +8,7 @@
       </div>
       <ul class="nav flex-column p-3">
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="./">Início</a>
+              <a class="nav-link btn btnMenu" href="index_sistema.php">Início</a>
           </li>
           <li class="nav-item">
               <a class="nav-link btn btnMenu" href="usuarios-pesquisar.php">Usuários</a>
@@ -17,7 +17,7 @@
               <a class="nav-link btn btnMenu" href="#">Relatórios</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="#">Configurações</a>
+              <a class="nav-link btn btnMenu" href="teste.php">Configurações</a>
           </li>
           <li class="nav-item">
               <a class="nav-link btn btnMenu" href="adicionarNoticias.php">Adicionar Notícia</a>
@@ -25,7 +25,7 @@
       </ul>
 
       <div class="mt-5 text-center">
-          <a class="btn btnMenu" href="../">Voltar ao Site</a>
+          <a class="btn btnMenu" href="index.php">Voltar ao Site</a>
       </div>
 
   </div>
@@ -40,7 +40,7 @@
       </div>
       <ul class="nav flex-column p-3">
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="./">Início</a>
+              <a class="nav-link btn btnMenu" href="index_sistema.php">Início</a>
           </li>
           <li class="nav-item">
               <a class="nav-link btn btnMenu" href="usuarios-pesquisar.php">Usuários</a>
@@ -58,7 +58,7 @@
       </ul>
 
       <div class="mt-5 text-center">
-          <a class="btn btnMenu" href="../">Voltar ao Site</a>
+          <a class="btn btnMenu" href="index.php">Voltar ao Site</a>
       </div>
 
       

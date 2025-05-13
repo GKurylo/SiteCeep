@@ -18,8 +18,9 @@
     </div>
 
     <div class="row mt-3 ">
-        <form action="usuarios-acao.php" method="post" class="row">
+        <form action="noticia-adicionar.php" method="post" class="row">
             <input type="hidden" name="txtId">
+
             <div class="offset-2 col-8">
                 <label for="titulo" class="form-label">Titulo:</label>
                 <input type="text" class="form-control" id="titulo" name="txtTitulo">
@@ -32,7 +33,7 @@
 
             <div class="offset-2 col-8">
                 <label for="texto" class="form-label">Texto:</label>
-                <input type="text" class="form-control" id="texto" name="txtTexto">
+                <input type="text" class="form-control" id="descricao" name="txtDescricao">
             </div>
 
             <div class="offset-2 col-8">

@@ -24,7 +24,7 @@
     </div>
 
     <div class="mt-3 text-center">
-      <a href="sistema/index.php"><input value="Gravar" type="submit" class="btn btn-success col-8 mt-3"></a>
+      <a href="index_sistema.php"><input value="Gravar" type="submit" class="btn btn-success col-8 mt-3"></a>
     </div>
   </div>
 
@@ -41,7 +41,7 @@
     </div>
 
     <div class="mt-3 text-center">
-      <a href="sistema/index.php"><input value="Gravar" type="submit" class="btn btn-success col-8 mt-3"></a>
+      <a href="index_sistema.php"><input value="Gravar" type="submit" class="btn btn-success col-8 mt-3"></a>
     </div>
   </div>
 
