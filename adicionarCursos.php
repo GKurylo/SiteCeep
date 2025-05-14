@@ -9,7 +9,7 @@
 
     <?php require('app-menus.php') ?>
 
-    <h1>Adicione Sua Notícia!</h1>
+    <h1>Adicione Sua Curso!</h1>
 
     <div class="row">
         <div class="offset-md-10 col-md-2 text-end">
@@ -18,27 +18,30 @@
     </div>
 
     <div class="row mt-3 ">
-        <form action="noticia-adicionar.php" method="post" class="row">
+        <form action="cursos-adicionar.php" method="post" class="row">
             <input type="hidden" name="txtId">
 
             <div class="offset-2 col-8">
-                <label for="titulo" class="form-label">Titulo:</label>
-                <input type="text" class="form-control" id="titulo" name="txtTitulo">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="txtNome">
             </div>
 
             <div class="offset-2 col-8">
-                <label for="subtitulo" class="form-label">Resumo:</label>
-                <input type="text" class="form-control" id="resumo" name="txtResumo">
-            </div>
-
-            <div class="offset-2 col-8">
-                <label for="texto" class="form-label">Texto:</label>
+                <label for="descricao" class="form-label">Descricao:</label>
                 <input type="text" class="form-control" id="descricao" name="txtDescricao">
             </div>
 
             <div class="offset-2 col-8">
                 <label for="imagem" class="form-label">Imagem:</label>
                 <input type="text" class="form-control" id="imagem" name="txtImagem">
+            </div>
+
+            <div class="offset-2 col-8">
+                <label for="tipo" class="form-label">Tipo:</label>
+                <select type="text" class="form-control" id="tipo" name="txtTipo">
+                    <option value="1" selected>Subsequente</option>
+                    <option value="0">Integrado</option>
+                </select>
             </div>
 
             <div class="offset-2 col-8">

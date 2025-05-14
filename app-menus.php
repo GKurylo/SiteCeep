@@ -20,7 +20,7 @@
               <a class="nav-link btn btnMenu" href="teste.php">Configurações</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="adicionarNoticias.php">Adicionar Notícia</a>
+              <a class="nav-link btn btnMenu" href="site.php">Gerir Site</a>
           </li>
       </ul>
 

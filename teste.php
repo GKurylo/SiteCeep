@@ -1,4 +1,4 @@
-<?php include('conexao.php')?>;
+<?php include('conexao.php') ?>;
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,132 +16,34 @@
     <?php
     include("topo.php");
     ?>
-
-
-
-    <div class="container">
-        <div>
-            <h1 class="text-center titulosBorda">Noticias</h1>
-        </div><br>
-
-        <!-- Noticias para pc -->
-        <div class="d-none d-sm-block">
+<div class="container">
 <div class="row">
-        <?php 
-                  $sql=$conn->prepare("
-                     select * from noticias;
+    <div class="text-center mb-3 "><h1 class="titulosBorda">Cursos Subsequentes</h1></div>
+</div>
+<div class="row">
+            <?php
+            $sql = $conn->prepare(" SELECT * from cursos;
                   ");
-                  $sql->execute();
-                  while($dados=$sql->fetch()){
-               ?>
-
-            <div class="col-6">
-                <div class="text-center">
-                    <h4 class="titulosBorda"><?php echo $dados['titulo'];?></h4>
+            $sql->execute();
+            while ($dados = $sql->fetch()) {
+            ?>
+                <div class="col-6">
+                    <div>
+                        <h2 class="text-center titulosBorda">
+                            <?php if($dados['tipo'] == 1){
+                                echo $dados['nome'];
+                            }?>
+                        </h2>
+                    </div>
+                    <div>
+                         <?php if($dados['tipo'] == 1){
+                                echo '<img src="' . ($dados['imagem'] ?? '') . '" class="img-fluid imgBorda" height="50px">';
+                            }?>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-5">
-                       <?php echo '<img src="' . ($dados['imagem'] ?? '') . '" class="img-fluid imgBorda" height="50px">'; ?>
-                    </div>
-                    <div class="col-7">
-                        <p><?php echo $dados ['resumo']?></p>
-                        <div>
-                            <a href="noticiaResumo1.php"><button class="btn btn-secondary">Ver Mais</button></a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-
-</div> <br>
-            <?php }; ?>
-            
-        </div>
-
-
-        <!-- Noticias para celular -->
-        <div class="d-block d-sm-none">
-
-            <div class="row">
-
-                <div class="col-12 mt-3">
-
-                    <div class="row">
-                        <div class="text-center">
-                            <h4 class="titulosBorda" class="titulosBorda">formados</h4>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/noticia1.jpg" class="img-fluid imgBorda " height="50px">
-                        </div>
-                        <div class="col-md-8 fundoResumoCursos">
-                            <div class="text-center">
-                                <p>A formatura dos alunos dos cursos técnicos foi marcada...</p>
-                                <a href="noticiaResumo1.php"><button class="btn btn-secondary">Ver Mais</button></a>
-                            </div><br>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="text-center">
-                            <h4 class="titulosBorda">Incrições Abertas</h4>
-
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/noticia2.png" class="img-fluid imgBorda" height="50px">
-                        </div>
-                        <div class="col-md-8">
-
-                            <div class="text-center">
-                                <p>As matrículas para os cursos técnicos estão abertas...</p>
-                                <a href="noticiaResumo2.php"><button class="btn btn-secondary">Ver Mais</button></a>
-                            </div><br>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <h1 class="text-center titulosBorda">Noticias</h1>
-                </div><br>
-                <div class="col-12 mt-3">
-
-                    <div class="row">
-                        <div class="text-center">
-                            <h4 class="titulosBorda" class="titulosBorda">formados</h4>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/noticia3.jpg" class="img-fluid imgBorda " height="50px">
-                        </div>
-                        <div class="col-md-8 fundoResumoCursos">
-                            <div class="text-center">
-                                <p>Os Jogos Escolares estão com inscrições abertas...</p>
-                                <a href="noticiaResumo3.php"><button class="btn btn-secondary">Ver Mais</button></a>
-                            </div><br>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="text-center">
-                            <h4 class="titulosBorda">Incrições Abertas</h4>
-
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/noticia4.jpg" class="img-fluid imgBorda" height="50px">
-                        </div>
-                        <div class="col-md-8">
-
-                            <div class="text-center">
-                                <p>As novas carteiras estudantis estão disponíveis...</p>
-                                <a href="noticiaResumo4.php"><button class="btn btn-secondary">Ver Mais</button></a>
-                            </div><br>
-                        </div>
-                    </div>
-                    <hr>
-
-                </div>
-            </div>
-        </div>
-    </div>
+            <?php } ?>
+        </div><br>
+</div>
 
     <footer>
         <?php include("footer.php"); ?>

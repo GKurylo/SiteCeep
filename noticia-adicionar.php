@@ -12,8 +12,8 @@ $sql=$conn->prepare("
                              descricao='$descricao',
                              imagem='$imagem',
                              status='$status'
-    ");
-    $sql->execute();
+");
+$sql->execute();
 
 header("location: adicionarNoticias.php");
 
