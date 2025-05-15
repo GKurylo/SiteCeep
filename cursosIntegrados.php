@@ -18,7 +18,7 @@
     ?>
 <div class="container">
 <div class="row">
-    <div class="text-center mb-3 "><h1 class="titulosBorda">Cursos Subsequentes</h1></div>
+    <div class="text-center mb-3 "><h1 class="titulosBorda">Cursos Integrados</h1></div>
 </div>
 <div class="row">
             <?php
@@ -28,18 +28,20 @@
             while ($dados = $sql->fetch()) {
             ?>
                 <div class="col-6">
-                    <div>
-                        <h2 class="text-center titulosBorda">
-                            <?php if($dados['tipo'] == 0){
-                                echo $dados['nome'];
-                            }?>
-                        </h2>
-                    </div>
-                    <div>
-                         <?php if($dados['tipo'] == 0){
+                    <a href="cursosExpandido.php?id=<?php echo $dados['id'] ?>">
+                        <div>
+                            <h2 class="text-center titulosBorda">
+                                <?php if ($dados['tipo'] == 0) {
+                                    echo $dados['nome'];
+                                } ?>
+                            </h2>
+                        </div>
+                        <div>
+                            <?php if ($dados['tipo'] == 0) {
                                 echo '<img src="' . ($dados['imagem'] ?? '') . '" class="img-fluid imgBorda" height="50px">';
-                            }?>
-                    </div>
+                            } ?>
+                        </div>
+                    </a>
                 </div>
             <?php } ?>
         </div><br>

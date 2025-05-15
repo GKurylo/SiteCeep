@@ -16,11 +16,13 @@
     <?php
     include("topo.php");
     ?>
-<div class="container">
-<div class="row">
-    <div class="text-center mb-3 "><h1 class="titulosBorda">Cursos Subsequentes</h1></div>
-</div>
-<div class="row">
+    <div class="container">
+        <div class="row">
+            <div class="text-center mb-3 ">
+                <h1 class="titulosBorda">Cursos Subsequentes</h1>
+            </div>
+        </div>
+        <div class="row">
             <?php
             $sql = $conn->prepare(" SELECT * from cursos;
                   ");
@@ -28,22 +30,24 @@
             while ($dados = $sql->fetch()) {
             ?>
                 <div class="col-6">
-                    <div>
-                        <h2 class="text-center titulosBorda">
-                            <?php if($dados['tipo'] == 1){
-                                echo $dados['nome'];
-                            }?>
-                        </h2>
-                    </div>
-                    <div>
-                         <?php if($dados['tipo'] == 1){
+                    <a href="cursosExpandido.php?id=<?php echo $dados['id'] ?>">
+                        <div>
+                            <h2 class="text-center titulosBorda">
+                                <?php if ($dados['tipo'] == 1) {
+                                    echo $dados['nome'];
+                                } ?>
+                            </h2>
+                        </div>
+                        <div>
+                            <?php if ($dados['tipo'] == 1) {
                                 echo '<img src="' . ($dados['imagem'] ?? '') . '" class="img-fluid imgBorda" height="50px">';
-                            }?>
-                    </div>
+                            } ?>
+                        </div>
+                    </a>
                 </div>
             <?php } ?>
         </div><br>
-</div>
+    </div>
 
     <footer>
         <?php include("footer.php"); ?>

@@ -43,7 +43,7 @@
                             <div class="col-7">
                                 <p><?php echo $dados['resumo'] ?></p>
                                 <div>
-                                    <a href="noticiaResumo1.php"><button class="btn btn-secondary">Ver Mais</button></a>
+                                    <a href="noticiasExpandido.php?id=<?php echo $dados['id']?>"><button class="btn btn-secondary">Ver Mais</button></a>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                             <div class="col-md-8 fundoResumoCursos">
                                 <div class="text-center">
                                     <p><?php echo $dados['resumo'] ?></p>
-                                    <a href="noticiaResumo1.php"><button class="btn btn-secondary">Ver Mais</button></a>
+                                    <a href="teste.php"><button class="btn btn-secondary">Ver Mais</button></a>
                                 </div><br>
                             </div>
                         </div>
