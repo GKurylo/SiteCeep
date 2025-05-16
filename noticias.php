@@ -46,7 +46,7 @@
                                     <a href="noticiasExpandido.php?id=<?php echo $dados['id']?>"><button class="btn btn-secondary">Ver Mais</button></a>
                                 </div>
                             </div>
-                        </div>
+                        </div><br>
                     </div>
                 <?php } ?>
             </div> <br>
@@ -80,10 +80,9 @@
                                     <a href="teste.php"><button class="btn btn-secondary">Ver Mais</button></a>
                                 </div><br>
                             </div>
-                        </div>
-                        <hr>
-
+                        </div><hr>
                     </div>
+
                 <?php } ?>
             </div>
         </div>

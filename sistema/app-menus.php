@@ -25,7 +25,7 @@
       </ul>
 
       <div class="mt-5 text-center">
-          <a class="btn btnMenu" href="index.php">Voltar ao Site</a>
+          <a class="btn btnMenu" href="../">Voltar ao Site</a>
       </div>
 
   </div>

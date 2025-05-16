@@ -1,3 +1,5 @@
+<?php include('conexao.php') ?>;
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,7 +15,7 @@
 
     <div class="row">
         <div class="offset-md-10 col-md-2 text-end">
-            <a href="usuarios-cadastro.php" class="btn btn-primary">Novo</a>
+            <a href="adicionarNoticias.php" class="btn btn-primary">Novo</a>
         </div>
     </div>
 
@@ -48,12 +50,54 @@
                     <option value="0">Bloqueado</option>
                 </select>
             </div>
-
             <div class="col-12 text-center">
                 <input value="Gravar" type="submit" class="btn btn-success mt-3">
-            </div>
+            </div> <br>
         </form>
     </div>
+
+    <div class="container">
+
+        <div class="row">
+            <table class="table">
+                <tr class="table-dark">
+                    <th>ID:</th>
+                    <th></th>
+                    <th>NOTICIA:</th>
+                    <th>CONTEUDO:</th>
+                    <th>OPÇÕES:</th>
+                </tr>
+
+                <?php
+                $sql = $conn->prepare(" SELECT * from noticias;
+                  ");
+                $sql->execute();
+                while ($dados = $sql->fetch()) {
+                ?>
+
+                    <tr class="table-striped">
+                        <td style="width: 50px;">
+                            <?php echo $dados['id']; ?>
+                        </td>
+                        <td style="width: 150px;">
+                            <?php echo '<img src="' . ($dados['imagem'] ?? '') . '" class="imgBorda" height="120px">'; ?>
+                        </td>
+                        <td>
+                            <h4 class="text-home"><?php echo $dados['titulo']; ?></h4>
+                        </td>
+                        <td>
+                            <p><?php echo $dados['resumo'] ?></p>
+                        </td>
+                        <td>
+                            <a href="noticias-editar.php?id=<?php echo $dados['id']; ?>" class="btn btn-warning btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a href="noticias-deletar.php?id=<?php echo $dados['id']; ?>" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></a>
+                        </td>
+                    </tr>
+
+                <?php } ?>
+
+            </table>
+        </div>
 
     </div>
 
