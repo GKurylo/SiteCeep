@@ -15,6 +15,6 @@ $sql=$conn->prepare("
 ");
 $sql->execute();
 
-header("location: adicionarCursos.php");
+header("location: cursos-cadastro.php");
 
 ?>

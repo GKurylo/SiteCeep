@@ -14,10 +14,10 @@
               <a class="nav-link btn btnMenu" href="usuarios-pesquisar.php">Usuários</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="#">Relatórios</a>
+              <a class="nav-link btn btnMenu" href="locais-pesquisar.php">Locais</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="teste.php">Configurações</a>
+              <a class="nav-link btn btnMenu" href="teste.php">Teste</a>
           </li>
           <li class="nav-item">
               <a class="nav-link btn btnMenu" href="site.php">Gerir Site</a>

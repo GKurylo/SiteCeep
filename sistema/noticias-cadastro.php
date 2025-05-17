@@ -1,4 +1,16 @@
-<?php include('conexao.php') ?>;
+<?php include('conexao.php');
+
+$id = isset($_GET["id"]) ? $_GET["id"] : "";
+ 
+if ($id) {
+    $sql = $conn->prepare("
+    select * from USUARIOS where id='$id';
+    ");
+
+    $sql->execute();
+    $dados = $sql->fetch();
+}
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -13,15 +25,11 @@
 
     <h1>Adicione Sua Notícia!</h1>
 
-    <div class="row">
-        <div class="offset-md-10 col-md-2 text-end">
-            <a href="adicionarNoticias.php" class="btn btn-primary">Novo</a>
-        </div>
-    </div>
-
     <div class="row mt-3 ">
-        <form action="noticia-adicionar.php" method="post" class="row">
-            <input type="hidden" name="txtId">
+        <form action="noticias-acao.php" method="post" class="row">
+            <input type="hidden" name="txtId" value="<?php if($id){
+                                                         echo $dados['id'];
+                                                     };?>">
 
             <div class="offset-2 col-8">
                 <label for="titulo" class="form-label">Titulo:</label>
@@ -54,7 +62,7 @@
                 <input value="Gravar" type="submit" class="btn btn-success mt-3">
             </div> <br>
         </form>
-    </div>
+    </div> <br>
 
     <div class="container">
 

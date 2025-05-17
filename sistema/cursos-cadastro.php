@@ -1,3 +1,5 @@
+<?php include('conexao.php'); ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,7 +15,7 @@
 
     <div class="row">
         <div class="offset-md-10 col-md-2 text-end">
-            <a href="usuarios-cadastro.php" class="btn btn-primary">Novo</a>
+            <a href="cursos-cadastro.php" class="btn btn-primary">Novo</a>
         </div>
     </div>
 
@@ -56,8 +58,18 @@
                 <input value="Gravar" type="submit" class="btn btn-success mt-3">
             </div>
         </form>
-    </div>
+    </div> <br> <hr>
 
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <h2>Formulario de Cursos!</h2>
+            </div>
+        </div> <br>
+        <div class="row">
+            <div class="col-6 text-center"><a href="cursos-sub-pesquisar.php" class="btn btn-primary">Subsequentes</a></div>
+            <div class="col-6 text-center"><a href="cursos-int-pesquisar.php" class="btn btn-primary">Integrados</a></div>
+        </div>
     </div>
 
     <?php require('app-scripts.php') ?>

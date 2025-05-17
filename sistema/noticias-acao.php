@@ -1,12 +1,11 @@
 <?php include('conexao.php');
 
+$id = $_POST["txtId"];
 $titulo = $_POST["txtTitulo"]; 
 $resumo = $_POST["txtResumo"];
 $descricao = $_POST["txtDescricao"];
 $imagem = $_POST["txtImagem"];
 $status = $_POST["txtStatus"];
-
-
 
 if(!$id){
     //inserir
@@ -29,7 +28,6 @@ if(!$id){
     ");
     $sql->execute();
 }
-
-header("location: adicionarNoticias.php");
+header("location: noticias-cadastro.php");
 
 ?>
