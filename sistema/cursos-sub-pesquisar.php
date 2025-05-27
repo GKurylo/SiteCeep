@@ -47,13 +47,14 @@
                             <p>teste</p>
                         </td>
                         <td>
-                            <a href="noticias-editar.php?id=<?php echo $dados['id']; ?>" class="btn btn-warning btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a href="cursos-cadastro.php?id=<?php echo $dados['id']; ?>" class="btn btn-warning btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
                             <a href="cursos-deletar.php?id=<?php echo $dados['id']; ?>" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></a>
                         </td>
                     </tr>
 
                 <?php } ?>
 
+                
             </table>
         </div>
 

@@ -22,7 +22,7 @@
 </div>
 <div class="row">
             <?php
-            $sql = $conn->prepare(" SELECT * from cursos;
+            $sql = $conn->prepare(" SELECT * from cursos where tipo='0';
                   ");
             $sql->execute();
             while ($dados = $sql->fetch()) {
@@ -31,18 +31,18 @@
                     <a href="cursosExpandido.php?id=<?php echo $dados['id'] ?>">
                         <div>
                             <h2 class="text-center titulosBorda">
-                                <?php if ($dados['tipo'] == 0) {
+                                <?php 
                                     echo $dados['nome'];
-                                } ?>
+                                 ?>
                             </h2>
                         </div>
                         <div>
-                            <?php if ($dados['tipo'] == 0) {
+                            <?php 
                                 echo '<img src="' . ($dados['imagem'] ?? '') . '" class="img-fluid imgBorda" height="50px">';
-                            } ?>
+                             ?>
                         </div>
                     </a>
-                </div>
+                </div> 
             <?php } ?>
         </div><br>
 </div>

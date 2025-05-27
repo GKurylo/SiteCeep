@@ -1,4 +1,16 @@
-<?php include('conexao.php'); ?>
+<?php include('conexao.php'); 
+
+$id = isset($_GET["id"]) ? $_GET["id"] : "";
+ 
+if ($id) {
+    $sql = $conn->prepare("
+    select * from cursos where id='$id';
+    ");
+
+    $sql->execute();
+    $dados = $sql->fetch();
+}
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -21,21 +33,29 @@
 
     <div class="row mt-3 ">
         <form action="cursos-adicionar.php" method="post" class="row">
-            <input type="hidden" name="txtId">
+            <input type="hidden" name="txtId" value="<?php if($id){
+                                                         echo $dados['id'];
+                                                     };?>">
 
             <div class="offset-2 col-8">
                 <label for="nome" class="form-label">Nome:</label>
-                <input type="text" class="form-control" id="nome" name="txtNome">
+                <input type="text" class="form-control" id="nome" name="txtNome" value=" <?php if($id){
+                                                         echo $dados['nome'];
+                                                     };?>">
             </div>
 
             <div class="offset-2 col-8">
                 <label for="descricao" class="form-label">Descricao:</label>
-                <input type="text" class="form-control" id="descricao" name="txtDescricao">
+                <input type="text" class="form-control" id="descricao" name="txtDescricao" value=" <?php if($id){
+                                                         echo $dados['descricao'];
+                                                     };?>">
             </div>
 
             <div class="offset-2 col-8">
                 <label for="imagem" class="form-label">Imagem:</label>
-                <input type="text" class="form-control" id="imagem" name="txtImagem">
+                <input type="text" class="form-control" id="imagem" name="txtImagem" value=" <?php if($id){
+                                                         echo $dados['imagem'];
+                                                     };?>">
             </div>
 
             <div class="offset-2 col-8">

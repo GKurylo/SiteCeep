@@ -7,7 +7,7 @@ if ($id) {
     $sql = $conn->prepare("
     select * from NOTICIAS where id='$id';
     ");
-
+echo " select * from NOTICIAS where id='$id';";
     $sql->execute();
     $dados = $sql->fetch();
 }

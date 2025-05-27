@@ -24,7 +24,7 @@
         </div>
         <div class="row">
             <?php
-            $sql = $conn->prepare(" SELECT * from cursos;
+            $sql = $conn->prepare(" SELECT * from cursos where tipo='1';
                   ");
             $sql->execute();
             while ($dados = $sql->fetch()) {
@@ -33,16 +33,16 @@
                     <a href="cursosExpandido.php?id=<?php echo $dados['id'] ?>">
                         <div>
                             <h2 class="text-center titulosBorda">
-                                <?php if ($dados['tipo'] == 1) {
+                                <?php 
                                     echo $dados['nome'];
-                                } ?>
+                                 ?>
                             </h2>
                         </div>
                         <div>
-                            <?php if ($dados['tipo'] == 1) {
+                            <?php 
                                 echo '<img src="' . ($dados['imagem'] ?? '') . '" class="img-fluid imgBorda" height="50px">';
-                            } ?>
-                        </div>
+                             ?>
+                        </div> <br>
                     </a>
                 </div>
             <?php } ?>

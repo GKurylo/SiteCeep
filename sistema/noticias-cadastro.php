@@ -4,7 +4,7 @@ $id = isset($_GET["id"]) ? $_GET["id"] : "";
  
 if ($id) {
     $sql = $conn->prepare("
-    select * from USUARIOS where id='$id';
+    select * from NOTICIAS where id='$id';
     ");
 
     $sql->execute();
@@ -113,4 +113,4 @@ if ($id) {
 
 </body>
 
-</html>
+</html>	
