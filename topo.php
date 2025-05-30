@@ -77,7 +77,7 @@
         <div><a href="contato.php"><button class="btn btn-secondary" type="button">Contato</button></a></div>
     </div>
     <div class="col-2 p-1">
-        <div><a href="login.php"><button class="btn btn-secondary" type="button">Área Restrita</button></a></div>
+        <div><a href="sistema/login.php"><button class="btn btn-secondary" type="button">Área Restrita</button></a></div>
     </div>
     <div class="col-1"></div>
 </div>

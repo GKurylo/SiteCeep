@@ -11,8 +11,13 @@
 
 <body>
 
-<!-- Login para PC -->
+
+
+  <!-- Login para PC -->
   <div class="row loginPc d-none d-sm-block">
+    <div class="text-center mt-3">
+      <h2>Entre no Sistema</h2>
+    </div>
     <div class="row offset-1 col-10 mt-3">
       <label for="usuario" class="form-label">USUÁRIO:</label>
       <input type="text" class="form-control" id="usuario" name="txtUsuario">
@@ -30,6 +35,9 @@
 
   <!-- Login para celular -->
   <div class="loginCelular d-block d-sm-none">
+    <div class="text-center">
+      <h2>Entre no Sistema</h2>
+    </div>
     <div class="row offset-1 col-10 mt-3">
       <label for="usuario" class="form-label">USUÁRIO:</label>
       <input type="text" class="form-control" id="usuario" name="txtUsuario">

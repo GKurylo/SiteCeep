@@ -17,7 +17,7 @@
               <a class="nav-link btn btnMenu" href="locais-pesquisar.php">Locais</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link btn btnMenu" href="teste.php">Teste</a>
+              <a class="nav-link btn btnMenu" href="agendas-pesquisar.php">Agendas</a>
           </li>
           <li class="nav-item">
               <a class="nav-link btn btnMenu" href="site.php">Gerir Site</a>
